@@ -1,0 +1,15 @@
+echo ".terraform/" >> .gitignore
+echo "providers/" >> .gitignore
+echo "*.tfstate" >> .gitignore
+echo "*.tfstate.backup" >> .gitignore
+echo "*.tfvars" >> .gitignore
+echo ".terraform.lock.hcl" >> .gitignore
+echo "crash.log" >> .gitignore
+git add .gitignore
+.terraform/
+providers/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform.lock.hcl
+crash.log
